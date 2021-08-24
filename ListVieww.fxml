@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane minHeight="400.0" minWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="listt.ListViewwController">
+   <children>
+      <ListView fx:id="lstItems" layoutX="36.0" layoutY="29.0" prefHeight="200.0" prefWidth="114.0" />
+      <Button layoutX="174.0" layoutY="38.0" mnemonicParsing="false" onAction="#doShow" prefHeight="25.0" prefWidth="114.0" text="Show Selected" />
+      <Button layoutX="174.0" layoutY="78.0" mnemonicParsing="false" onAction="#doDelete" prefHeight="25.0" prefWidth="114.0" text="Delete Selected" />
+      <Button layoutX="174.0" layoutY="117.0" mnemonicParsing="false" onAction="#doClear" prefHeight="25.0" prefWidth="114.0" text="Clear All" />
+      <Button layoutX="174.0" layoutY="161.0" mnemonicParsing="false" onAction="#doAddNew" prefHeight="25.0" prefWidth="114.0" text="Add" />
+      <TextField fx:id="txtItm" layoutX="167.0" layoutY="200.0" />
+      <Label fx:id="lblItem" layoutX="36.0" layoutY="278.0" prefHeight="25.0" prefWidth="329.0" text="Items" />
+      <Label fx:id="lblIndex" layoutX="36.0" layoutY="320.0" prefHeight="25.0" prefWidth="329.0" text="Indecies" />
+   </children>
+</AnchorPane>
